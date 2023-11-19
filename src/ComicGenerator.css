@@ -1,0 +1,82 @@
+/* ComicGenerator.css */
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 80%;
+  }
+  
+  .input-section input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 10px; /* Adjust the gap as needed */
+  }
+  
+  button {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px; /* Make the buttons slightly rounded */
+  }
+  
+  .generate-button {
+    background-color: rgb(86, 66, 197); /* Blue color for Generate Comic Strips button */
+    color: #fff; /* White text color */
+  }
+  
+  .download-button {
+    background-color: #009e28; /* Green color for Download All button */
+    color: #fff; /* White text color */
+  }
+
+  .comic-strips {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .comic-strips img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    object-fit: cover;
+  }
+  
+  /* Additional styling for overall layout */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    width: 100%;
+    margin: 20px;
+  }
+  
